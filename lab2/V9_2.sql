@@ -68,7 +68,7 @@ INSERT INTO dbo.StateProvince (
 	) p
 	WHERE pr = 1;
 
---Task 2.e--
+--Task 2.f--
 
 ALTER TABLE dbo.StateProvince
 	ALTER COLUMN IsOnlyStateProvinceFlag SMALLINT NULL;
